@@ -1,0 +1,50 @@
+* {margin:0; padding:0;}
+
+body {
+	background-image: url(bgutm.jpg);
+  	background-size: 100%;
+	font-family:courier new;
+	color:#FFF;
+}
+
+.material-icons {
+	padding-right:5px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	padding-right: 10px;
+}
+
+a:hover{
+	background-color: #800000;
+	display: inline-block;
+}
+
+a:visited{
+	color: wheat;
+}
+
+
+.menu-wrap {
+	background-color:#000000; 
+	height:50px; 
+	line-height:50px; 
+	position:relative;
+	width:100%;
+	margin:auto;
+	font-size: 5px;
+}
+
+p{
+	font-size: 35px;
+	text-align: right; 
+	font-family: courier new;
+	padding-top: 120px;
+	padding-right: 30px;
+	color: black;
+}
+
