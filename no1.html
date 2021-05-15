@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NO 1</title>
+	<style type="text/css">	
+
+		.judul {
+			/* mengatur warna  dasar background text judul */ 
+			background: rgb(2,0,36);
+			/* mengatur gradasi warna  dasar background text judul */ 
+			background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,78,163,1) 0%, rgba(224,170,193,1) 100%);
+			/* mengatur lebar text secaar otomatis */ 
+			width: auto;
+			/* mengatur jarak text judul */ 
+			padding: 10px;
+			/* mengatur ukuran font text judul */ 
+			font-size: 50px;
+			/* mengatur jenis font text judul */ 
+			font-family: monospace;
+			/* mengatur posisi text judul */ 
+			text-align: center;
+			/* mengatur warna text judul */ 
+			color: white;
+		}
+		.gallery {
+			/* mengatur jarak antar card sebesar 3px*/
+			margin: 2px;
+			/* menampilkan gambar ke samping kiri */
+			float: left;
+			/* menetapkan ukuran lebar card sebesar 184% dari layar */
+			width: 161px;
+			/* menetapkan ukuran tinggi card sebesar 184% dari layar */
+			height: 261px;
+			/* merubh warna background card dengan warna pink */
+			background: pink;
+		}
+
+		.gallery:hover{
+			/* menampilkan border bayangan berwarna ungu ketika card disentuh */
+			border: 3px solid purple;
+		}
+
+		.gallery img {
+			/* menetapkan ukuran lebar untuk setiap contoh gambar sebesar 184% dari layar */
+			width: 161px;
+			/* menetapkan ukuran tinggi untuk setiap contoh gambar sebesar 184% dari layar */
+			height: 161px;
+		}
+		
+		.deskripsi {
+			/* menetapkan jarak antara teks deskripsi dengan gambar */
+			padding: 15px;
+			/* mengatur ketebalan font */
+			font-weight: bold;
+			/* mengatur tata letak font */
+			text-align: center;
+			/* mengatur ukuran font */
+			font-size: 18px;
+		}
+
+		.responsive {
+			/* mengatur jarak antar card ke kiri*/
+			padding: 0 2px;
+			/* mengatur agar tampilan card  menyamping ke kiri*/ 
+			float: left;
+			/* mengatur lebar card sebesar 25% dari ukuran latyar*/
+			width: 25%;
+		}
+
+		/* merubah tampilan browser menjadi responsive terhadap tampilan layar browser berukuran 700px*/
+		@media only screen and (max-width: 700px) {
+		.responsive {
+			/* mengatur lebar card sebesar 25% dari ukuran latyar*/ 
+			width: 15%; 
+			/* mengatur jarak antar elemen dalam card*/ 
+			margin: 3px 0;
+			}
+		}
+
+		/* merubah tampilan browser menjadi responsive terhadap tampilan layar browser berukuran 500px*/
+		@media only screen and (max-width: 500px) {
+		.responsive {
+			/* mengatur lebar card sebesar 100% dari ukuran latyar*/ 
+			width: 100%;
+			}
+		}
+
+		/* mengatur lebar tampilan box */ 
+		* {
+		 box-sizing: border-box;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="all">
+		<div id="responsive"></div>
+			<div class="judul">
+				<h1>KARAKTER BT21</h1>
+			</div>
+		</div>
+
+		<div id="responsive">
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/koya.jpg" alt="koya">
+				</a>
+				<div class="deskripsi"> KOYA <br> (Kim Namjoon) </div>
+			</div>
+		</div>
+
+		<div id="responsive">
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/rj.jpg" alt="rj">
+				</a>
+				<div class="deskripsi"> RJ <br> (Kim Seok Jin) </div>
+			</div>
+		</div>
+
+		<div id="responsive"></div>
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/shooky.jpg" alt="shooky">
+				</a>
+				<div class="deskripsi"> SHOOKY <br> (Min Yoongi) </div>
+			</div>
+		</div>
+
+		<div id="responsive"></div>
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/mang.jpg" alt="mang">
+				</a>
+				<div class="deskripsi"> MANG <br> (Jung Hoseok)</div>
+			</div>
+		</div>
+
+		
+		<div id="responsive"></div>
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/chimmy.jpg" alt="chimmy">
+				</a>
+				<div class="deskripsi"> CHIMMY <br> (Park Jimin)</div>
+			</div>
+		</div>
+
+		<div id="responsive"></div>
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/tata.jpg" alt="tata">
+				</a>
+				<div class="deskripsi"> TATA <br> (Kim Taehyung)</div>
+			</div>
+		</div>
+
+		<div id="responsive"></div>
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/cooky.jpg" alt="cooky">
+				</a>
+				<div class="deskripsi"> COOKY <br> (Jeon Jungkook)</div>
+			</div>
+		</div>
+
+		<div id="responsive"></div>
+			<div class="gallery">
+				<a target="_blank" href="https://www.cosmopolitan.co.id/article/read/7/2019/16239/yuk-kenalan-dengan-8-karakter-bt21-yang-menggemaskan-ini">
+					<img src="bt21/van.jpg" alt="van">
+				</a>
+				<div class="deskripsi"> VAN <br> (Robot Tata)</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
